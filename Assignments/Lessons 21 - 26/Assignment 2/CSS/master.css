@@ -1,0 +1,25 @@
+.cap {
+    text-transform: uppercase;
+}
+
+.one,
+.two,
+.three {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 4vw;
+}
+
+.one {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.two {
+    font-family: 'Cairo', sans-serif;
+}
+
+.three {
+    font-family: 'Jomhuria', cursive;
+}

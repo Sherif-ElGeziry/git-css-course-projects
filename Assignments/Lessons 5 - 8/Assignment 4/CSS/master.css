@@ -1,0 +1,48 @@
+/* If all div require same inputs as color width height I can put all of them inside another div to solo control it. */
+
+.assign-4-shape-1 {
+    color: white;
+    width: 400px;
+    height: 400px;
+    background-image: url("../css-assignment-5-8.png");
+    background-color: aqua;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.assign-4-shape-2 {
+    color: white;
+    width: 400px;
+    height: 400px;
+    background-image: url("../css-assignment-5-8.png");
+    background-color: aqua;
+    margin-bottom: 20px;
+    background-repeat: repeat-y;
+    background-size: 80%;
+    background-position: right bottom;
+}
+
+.assign-4-shape-3 {
+    color: white;
+    width: 400px;
+    height: 400px;
+    background-image: url("../css-assignment-5-8.png");
+    background-color: aqua;
+    margin-bottom: 20px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 80%;
+}
+
+.assign-4-shape-4 {
+    color: white;
+    width: 400px;
+    height: 400px;
+    background-image: url("../css-assignment-5-8.png");
+    background-color: aqua;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right bottom;
+}

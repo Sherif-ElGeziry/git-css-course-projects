@@ -1,0 +1,32 @@
+.cap {
+    text-transform: uppercase;
+}
+
+.one,
+.two,
+.three {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 4vw;
+}
+
+html {
+    font-size: 20px;
+}
+
+.one {
+    font-size: 2.5rem;
+    cursor: grab;
+}
+
+.two {
+    font-size: 2rem;
+    cursor: wait;
+}
+
+.three {
+    font-size: 1.5rem;
+    cursor: cell;
+}

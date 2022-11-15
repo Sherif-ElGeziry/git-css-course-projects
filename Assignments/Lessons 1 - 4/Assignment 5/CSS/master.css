@@ -1,0 +1,47 @@
+/* valid */
+._user-name {
+    color: red;
+    font-size: 40px;
+}
+
+/* valid */
+.-user-name {
+    color: red;
+    font-size: 40px;
+}
+
+/* valid */
+.-user-name {
+    color: red;
+    font-size: 40px;
+}
+
+/* not valid */
+.1user-name {
+    color: red;
+    font-size: 40px;
+}
+
+/* not valid */
+.@user-name {
+    color: red;
+    font-size: 40px;
+}
+
+/* not valid */
+.user@name {
+    color: red;
+    font-size: 40px;
+}
+
+/* valid */
+._user10name {
+    color: red;
+    font-size: 40px;
+}
+
+/* valid */
+.u {
+    color: red;
+    font-size: 40px;
+}

@@ -1,0 +1,34 @@
+.one {
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px 15px 30px;
+    width: 400px;
+    border-color: aqua aqua aqua fuchsia;
+    border-width: 5px;
+    border-style: solid;
+    outline: 10px aqua solid;
+}
+
+.two {
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px 15px 30px;
+    width: 400px;
+    border-color: aqua aqua aqua fuchsia;
+    border-width: 5px;
+    border-style: solid;
+    outline: 10px aqua solid;
+    visibility: hidden;
+
+}
+
+.three {
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px 15px 30px;
+    width: 400px;
+    border-color: aqua aqua aqua gainsboro;
+    border-width: 5px;
+    border-style: solid;
+    outline: 10px aqua solid;
+}
