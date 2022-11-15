@@ -1,0 +1,76 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template: repeat(4, auto) / repeat(4, auto);
+    gap: 20px;
+    background-color: #eee;
+    padding: 20px;
+}
+
+.obj-one,
+.obj-two,
+.obj-four,
+.obj-six,
+.obj-seven,
+.obj-nine,
+.obj-ten {
+    display: grid;
+    align-content: flex-start;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 3px solid #ff3d00;
+}
+
+.obj-three,
+.obj-five,
+.obj-eight {
+    display: grid;
+    align-content: flex-start;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-bottom: 3px solid #ff3d00;
+}
+
+.obj-one {
+    grid-area: 1/1/2/span 2;
+}
+
+.obj-three {
+    grid-area: 1/4/span 3/5;
+}
+
+.obj-four {
+    grid-area: 2/1/span 2/2;
+}
+
+.obj-five {
+    grid-area: 2/2/3/span 2;
+}
+
+.obj-six {
+    grid-area: 3/2/4/span 2;
+}
+
+.job {
+    color: #a8a8a8;
+}
+
+p::before,
+.job::before {
+    content: "\A";
+    white-space: pre;
+}
+
+.bold {
+    font-weight: bold;
+}
