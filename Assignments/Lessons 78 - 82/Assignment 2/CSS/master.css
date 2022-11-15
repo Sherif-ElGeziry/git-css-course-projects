@@ -1,0 +1,4 @@
+/* .parent div:nth-child(2n)  */
+div.parent:first-child> :last-child {
+    color: red;
+}

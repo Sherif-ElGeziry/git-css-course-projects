@@ -1,0 +1,4 @@
+/* div :not(h3, div:nth-child(6n+1)) */
+div>:not(h3, div:last-child, div:first-child) {
+    color: red;
+}

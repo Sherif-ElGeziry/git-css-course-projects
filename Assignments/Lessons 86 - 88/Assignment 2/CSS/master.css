@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --width: 500px
+}
+
+div {
+    background-color: #dddddd;
+    width: var(--width);
+    padding: 20px;
+    margin: 30px auto;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+}
+
+.arrow::after {
+    position: absolute;
+    content: "";
+    border: 20px solid;
+}
+
+.top:after {
+    border-color: transparent transparent #ddd transparent;
+    top: -40px;
+    left: calc(50% - 20px);
+}
+
+.right:after {
+    border-color: transparent transparent transparent #ddd;
+    top: calc(50% - 20px);
+    right: -40px
+}
+
+.bottom:after {
+    border-color: #ddd transparent transparent transparent;
+    bottom: -40px;
+    left: calc(50% - 20px);
+}
+
+.left:after {
+    border-color: transparent #ddd transparent transparent;
+    top: calc(50% - 20px);
+    left: -40px
+}
