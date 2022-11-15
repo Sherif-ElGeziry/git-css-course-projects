@@ -1,0 +1,30 @@
+.shape-1 {
+    background-color: aqua;
+    padding: 20px;
+    display: inline-block;
+    border: 5px solid red;
+    outline: black solid 5px;
+    margin-left: 4px;
+    margin-right: 20px;
+}
+
+.shape-2 {
+    background-color: aqua;
+    padding: 20px;
+    display: inline-block;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue green;
+    outline: black solid 5px;
+    margin-right: 20px;
+}
+
+.shape-3 {
+    background-color: aqua;
+    padding: 20px;
+    display: inline-block;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: red green blue yellow;
+    outline: black solid 5px;
+}

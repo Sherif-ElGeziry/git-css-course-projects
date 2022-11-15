@@ -1,0 +1,53 @@
+title,
+table {
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption {
+    padding: 0px 20px 20px;
+    font-weight: bold;
+}
+
+table {
+    width: 700px;
+    text-align: center;
+    margin: 20px auto;
+    border-bottom: 2px solid #009688;
+}
+
+thead td {
+    background-color: #404040;
+    color: white;
+    padding: 20px;
+}
+
+tbody td {
+    background-color: #eeeeee;
+    padding: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.send {
+    background-color: #03a9f4;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+}
+
+.delete {
+    background-color: #e91e63;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+}
+
+.pts {
+    padding: 20px 10px;
+}

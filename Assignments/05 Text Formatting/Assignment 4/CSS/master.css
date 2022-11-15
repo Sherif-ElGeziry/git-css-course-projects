@@ -1,0 +1,14 @@
+.one {
+    text-align: center;
+}
+
+a {
+    color: white;
+    background-color: #51745194;
+    padding: 10px 20px;
+    margin: 20px;
+    text-transform: capitalize;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 8px solid #3e563e80;
+}
