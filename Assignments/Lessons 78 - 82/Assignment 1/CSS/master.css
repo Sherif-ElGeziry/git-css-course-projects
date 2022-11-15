@@ -1,4 +1,0 @@
-/* div[class="main red"]*/
-div:nth-child(3n + 1) {
-    color: red;
-}

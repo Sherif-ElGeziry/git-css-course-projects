@@ -1,4 +1,0 @@
-/* div:nth-of-type(2) > p + div */
-div:nth-of-type(2) div:only-of-type {
-    color: red;
-}

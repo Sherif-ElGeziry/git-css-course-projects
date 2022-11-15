@@ -1,4 +1,0 @@
-/* .parent:nth-child(2)  */
-div.parent .baby:only-child {
-    color: red;
-}
